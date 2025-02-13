@@ -24,33 +24,35 @@
     }
 		
      
-
-    table {
+table {
       width: 100%;
       border-collapse: collapse;
       text-align: center;
     }
 
+    /* Styling for the main header row */
     thead th {
       background-color: #333; /* Dark gray/black background */
-      color: white; /* White text */
+      color: white;
       padding: 10px;
       font-weight: bold;
       border: 1px solid #000;
     }
 
+    /* Styling for the second row of headers */
+    thead tr:nth-child(2) th {
+      background-color: #d3d3d3; /* Light gray background */
+      color: black; /* Black text */
+    }
+
     tbody td {
-      border: 1px solid #000; /* Solid black borders */
+      border: 1px solid #000;
       padding: 10px;
-      font-weight: bold; /* Matches bold text styling */
+      font-weight: bold;
     }
 
     tbody tr td:first-child {
       background-color: #ddd; /* Light gray background for the first column */
-    }
-	 tbody tr th:first-child {
-      background-color: #ddd; /* Light gray background for the first column */
-	color: white; /* White text */
     }
 	</style>
 </head>
