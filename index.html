@@ -23,53 +23,35 @@
       fill: #91929a;
     }
 		
-     table {
+     body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+
+    table {
       width: 100%;
       border-collapse: collapse;
       text-align: center;
-      margin: 20px 0;
-      background-color: #fff;
-      border: 2px solid #333;
     }
 
     thead th {
-      background-color: #333; /* Dark header background */
-      color: #ffffff; /* White text */
+      background-color: #333; /* Dark gray/black background */
+      color: white; /* White text */
       padding: 10px;
       font-weight: bold;
-      border: 1px solid #f9f9f9;
+      border: 1px solid #000;
     }
 
     tbody td {
+      border: 1px solid #000; /* Solid black borders */
       padding: 10px;
-      border: 1px solid #f9f9f9; /* Solid borders for all cells */
+      font-weight: bold; /* Matches bold text styling */
     }
 
-    tbody tr {
-      background-color: #f9f9f9; /* Light gray background for rows */
+    tbody tr td:first-child {
+      background-color: #ddd; /* Light gray background for the first column */
     }
-
-    tbody tr:nth-child(even) {
-      background-color: #ffffff; /* Alternating row color */
-    }
-
-    /* Styling for row/column headings in the leftmost column */
-    tbody td:first-child {
-      font-weight: bold;
-      background-color: #ddd;
-    }
-	id quebec{
-		background-color: #f9f9f9; /* Light gray background for rows */
-	}
-		id ontario{
-		background-color: #f9f9f9; /* Light gray background for rows */
-	}
-		id single-house{
-		background-color: #f9f9f9; /* Light gray background for rows */
-	}
-		id condo{
-		background-color: #f9f9f9; /* Light gray background for rows */
-	}
 	</style>
 </head>
 
