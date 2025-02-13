@@ -23,7 +23,7 @@
       fill: #91929a;
     }
 		
-    table {
+     table {
       width: 100%;
       border-collapse: collapse;
       text-align: center;
@@ -33,20 +33,30 @@
     }
 
     thead th {
-      background-color: #333;
-      color: #fff;
+      background-color: #333; /* Dark header background */
+      color: #ffffff; /* White text */
       padding: 10px;
       font-weight: bold;
-      border: 1px solid #ccc;
+      border: 1px solid #333;
     }
 
     tbody td {
       padding: 10px;
-      border: 1px solid #ccc;
+      border: 1px solid #333; /* Solid borders for all cells */
+    }
+
+    tbody tr {
+      background-color: #f9f9f9; /* Light gray background for rows */
     }
 
     tbody tr:nth-child(even) {
-      background-color: #f9f9f9;
+      background-color: #ffffff; /* Alternating row color */
+    }
+
+    /* Styling for row/column headings in the leftmost column */
+    tbody td:first-child {
+      font-weight: bold;
+      background-color: #ddd;
     }
 	</style>
 </head>
